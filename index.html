@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SmartAI Lab</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>SmartAI Lab</h1>
+      <p class="subtitle">Your AI dev assistant — generate, explain, debug, document</p>
+    </header>
+
+    <section id="chat" class="chat-window">
+      <div id="messages" class="messages"></div>
+    </section>
+
+    <form id="inputForm" class="input-area" autocomplete="off">
+      <input id="userInput" placeholder="Type a command (generate / explain / debug / document) and press Enter" />
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
